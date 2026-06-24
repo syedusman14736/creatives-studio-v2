@@ -12,11 +12,11 @@ function Footer() {
                         <p>MORE CREATIONS</p>
                     </div>
                 </div>
-                <div className='py-12 gap-8 md:gap-0 grid grid-cols-12 border-t  border-b border-gray-600'>
-                    <div className='col-span-12 md:col-span-4'>
+                <div className='py-12 gap-8 md:gap-6 lg:gap-0 grid grid-cols-8 border-t  border-b border-gray-600'>
+                    <div className='col-span-8 md:col-span-3'>
                         <img src={footerImg} alt="" />
                     </div>
-                    <div className='flex flex-col gap-4 col-span-12 md:col-span-8'>
+                    <div className='flex flex-col gap-4 col-span-8 md:col-span-5'>
                         <h1 className="font-semibold mt-6 md:mt-0 text-[28px] lg:text-[46px] leading-8 lg:leading-12 text-white">Let's create something amazing
                             & extraordinary together.</h1>
                         <div>
