@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+@theme {
+    /* 1. Right to Left Scroll */
+    --animate-scroll: scroll 30s linear infinite;
+
+    @keyframes scroll {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+    /* 2. Left to Right Scroll (Opposite) */
+    --animate-opposite-scroll: opposite-scroll 30s linear infinite;
+
+    @keyframes opposite-scroll {
+        from {
+            transform: translateX(-30%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+}
