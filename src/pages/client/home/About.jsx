@@ -24,12 +24,14 @@ function About() {
                                     develop creative ideas and concepts, choosing
                                     the appropriate media. Feel free to reach out to me!</p>
                                 <button data-aos="fade-bottom" className="cursor-pointer bg-black text-white text-[12px] md:text-[14px] font-medium px-6 py-3 rounded-md flex items-center gap-2">
-                                    BOOK A CALL
-                                    <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </span>
+                                    <a href="https://wa.me/+971508140299/?text=Hi! I'd like to book a call to discuss my project. Please let me know your available time." target="_blank">
+                                        BOOK A CALL
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="size-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </span>
+                                    </a>
                                 </button>
                             </div>
                         </div>
