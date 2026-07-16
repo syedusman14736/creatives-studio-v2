@@ -42,7 +42,7 @@ const ProtectedRoute = ({ children }) => {
     }
 
     if (!token || !isAuthenticated) {
-        return <Navigate to="/login" replace />;
+        return <Navigate to="/auth/login" replace />;
     }
 
     return children;
