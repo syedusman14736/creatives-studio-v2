@@ -76,7 +76,7 @@ function Portfolio() {
                 </div>
                 <div className="flex justify-center items-center">
 
-                    <Link to="/projects " className="mt-8 border cursor-pointer border-white text-white text-[12px] md:text-[14px] lg:text-[16px] font-medium px-6 py-2 rounded-md flex items-center gap-2">
+                    <Link to="/projects" className="mt-8 border cursor-pointer border-white text-white text-[12px] md:text-[14px] lg:text-[16px] font-medium px-6 py-2 rounded-md flex items-center gap-2">
                         VIEW ALL PROJECTS
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" className="size-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

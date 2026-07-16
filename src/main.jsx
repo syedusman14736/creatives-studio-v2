@@ -9,6 +9,7 @@ import Dashboard from './pages/admin/dashboard/Dashboard.jsx';
 import ProtectedRoute from './Route/ProtectedRoute.jsx';
 import Slider from './pages/admin/slider/Slider.jsx';
 import Portfolio from './pages/admin/portfolio/Portfolio.jsx';
+import Navbar from './components/layout/Navbar/Navbar.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,7 +44,13 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <Login />
+    element:
+      <div>
+        <Navbar />
+        <div className='flex justify-center items-center h-[70vh] font-medium text-[24px]'>
+          <h1>404 - Page Not Found</h1>
+        </div>
+      </div >
   }
 
 ]);

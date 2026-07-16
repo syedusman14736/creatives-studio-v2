@@ -132,11 +132,13 @@ const Navbar = () => {
                 className="relative max-w-7xl mx-auto px-4 py-3 border-b border-gray-200 flex justify-between items-center"
             >
                 {/* Logo */}
-                <img
-                    className="w-[180px]"
-                    src={logo}
-                    alt="Creatives Studio"
-                />
+                <Link to="/">
+                    <img
+                        className="w-[180px]"
+                        src={logo}
+                        alt="Creatives Studio"
+                    />
+                </Link>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex absolute left-1/2 -translate-x-1/2 gap-8 text-sm">
