@@ -3,7 +3,7 @@
 
 import { useEffect } from 'react';
 import Badge from '../../../components/common/Badge'
-import man from '/public/front-image.jpeg'
+import man from '/public/hero-creatives-studio.jpeg'
 
 function Hero() {
     return (
